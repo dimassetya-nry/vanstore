@@ -1,11 +1,9 @@
-selektor {
-  properti: nilai;
-  properti-lain: nilai-lain;
 body {
-  background-color: #FFFFE0 /* Warna kuning cerah */
+  background-color: #FFFFE0; /* Warna kuning cerah */
   font-family: Arial, sans-serif; /*Jenis huruf yang bersih dan mudah dibaca*/
-  colo: #191970; /*Warna teks utama (Biru Gelap) */
+  color: #191970; /*Warna teks utama (Biru Gelap) */
 }
+
 .kartu-profil {
   width: 300px;
   margin: 50 px auto; /* 50px jarak atas/bawah< auto menengahkan kiri/kanan */
@@ -13,12 +11,11 @@ body {
   background-color: white;
   border-radius: 15px: /* Membuat sudut menjadi melengkung */
   box-shadow: 0 4px 8px rgba (0,0,0,0,1); /* Efek bayangan */
+  text-align: center; /*Menengahkan semua teks di dalam kartu */
 }
+
+
 .kaartu-profil img {
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
-.kartu profil {
-  /* ... (kode dari slide sebelumnya) ... */
-  text-align: center; /*Menambahkan semua teks di dalam kartu */
 }
